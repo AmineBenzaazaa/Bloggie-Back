@@ -23,7 +23,7 @@ Route::post('/login', [AuthController::class, 'login']);
 // Protected routes
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::post('/logout', [AuthController::class, 'logout']);
-});
+}); 
 Route::middleware(['cors'])->group(function () {
     Route::post('/hogehoge', 'Controller@hogehoge');
 });
