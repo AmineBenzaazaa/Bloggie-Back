@@ -1,4 +1,4 @@
-<h1>Running a Laravel Project</h1>
+<h1>Running Front-end</h1>
 <p>This guide will walk you through the steps to run a Laravel project on your local machine. We assume that you have Composer, MySQL and the Laravel CLI installed on your system. If you don't have them installed, you can download them from the following links:</p>
 <ul>
   <li><a href="https://getcomposer.org/">Composer</a></li>
